@@ -21,12 +21,6 @@ using namespace std;
     return  xorAll ^ xorArray ;
 }
 
-int main() {
-    vector<int> nums ={1,2,3,5};
-    int n =5; 
-    int missing = findMissingNumber(nums, n);
-    cout << " missing number is " << missing << endl;
-    return 0;*/
     int main() {
     int n;
     cout << "Enter the value of n (numbers from 1 to n, one missing): ";
@@ -43,8 +37,10 @@ int main() {
     cout << "Missing number is: " << missing << endl;
 
    return 0;
-}
+
 }*/
+
+
 
 //2 Left rotate the array d places 
 void rotateLeft(vector<int>& nums, int d){
